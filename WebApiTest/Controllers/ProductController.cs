@@ -30,6 +30,7 @@ namespace WebApplicationTest.Controllers
         }
 
         //======================================================| Get all objects
+        //https://localhost:44339/api/products
         [HttpGet("/api/products")]
         public ActionResult<IEnumerable<Product>> GetProducts()
         {
@@ -57,6 +58,7 @@ namespace WebApplicationTest.Controllers
         }*/
 
         //======================================================| Get object by Id
+        //https://localhost:44339/api/products/1
         // GET: api/Products/5
         [HttpGet("/api/products/{id}", Name = "GetProductById")]
         public ActionResult<Product> GetProductById([FromRoute] int id)
@@ -82,6 +84,7 @@ namespace WebApplicationTest.Controllers
         }
 
         //======================================================| Add
+        //https://localhost:44339/api/products
         [HttpPost("/api/products")]
         public ActionResult<Product> AddProduct([FromBody] Product item)
         {
@@ -102,6 +105,7 @@ namespace WebApplicationTest.Controllers
         }
 
         //======================================================| Put/Update
+        //https://localhost:44339/api/products/4
         [HttpPut("/api/products/{id}")]
         public ActionResult<Product> UpdateProduct([FromQuery] string id, [FromBody] Product item)
         {
@@ -114,6 +118,7 @@ namespace WebApplicationTest.Controllers
         }
 
         //======================================================| Delete
+        //https://localhost:44339/api/products/3
         [HttpDelete("/api/products/{id}")]
         public ActionResult<Product> DeleteProduct(int id)
         {
@@ -152,6 +157,7 @@ namespace WebApplicationTest.Controllers
             return BadRequest();
         }
 
+        //https://localhost:44339/api/img/upload
         [HttpPost("/api/img/upload")]
         public async Task<IActionResult> ImgUpload([FromForm] IFormFile file)
         {
