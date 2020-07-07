@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200701050236_InitiaMigraton.cs" />
+    <Compile Remove="Migrations\20200701050236_InitiaMigraton.Designer.cs" />
+    <Compile Remove="Migrations\20200701051945_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200701051945_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200701052144_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200701052144_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200706043424_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200706043424_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200706043901_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200706043901_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200706044047_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200706044047_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200706053747_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200706053747_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200706053831_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200706053831_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200706055647_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200706055647_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200706055820_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200706055820_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+
+</Project>
