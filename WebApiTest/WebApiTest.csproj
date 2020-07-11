@@ -5,27 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20200701050236_InitiaMigraton.cs" />
-    <Compile Remove="Migrations\20200701050236_InitiaMigraton.Designer.cs" />
-    <Compile Remove="Migrations\20200701051945_InitialCreate.cs" />
-    <Compile Remove="Migrations\20200701051945_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20200701052144_InitialCreate.cs" />
-    <Compile Remove="Migrations\20200701052144_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20200706043424_InitialCreate.cs" />
-    <Compile Remove="Migrations\20200706043424_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20200706043901_InitialCreate.cs" />
-    <Compile Remove="Migrations\20200706043901_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20200706044047_InitialCreate.cs" />
-    <Compile Remove="Migrations\20200706044047_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20200706053747_InitialCreate.cs" />
-    <Compile Remove="Migrations\20200706053747_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20200706053831_InitialCreate.cs" />
-    <Compile Remove="Migrations\20200706053831_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20200706055647_InitialCreate.cs" />
-    <Compile Remove="Migrations\20200706055647_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20200706055820_InitialCreate.cs" />
-    <Compile Remove="Migrations\20200706055820_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200711125813_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200711125813_InitialCreate.Designer.cs" />
   </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
@@ -42,8 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\" />
     <Folder Include="wwwroot\" />
-    <Folder Include="NewFolder\" />
+    <Folder Include="wwwroot\upload\" />
   </ItemGroup>
 
 
